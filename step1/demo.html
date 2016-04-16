@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <section id="container"></section>
+  
+  <script id="myTemplate" type="text/ractive">
+    <h1>Hello Ractive.js World!</h1>
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ractive/0.7.3/ractive.js"></script>
+
+  <script type="text/javascript">
+    var r = new Ractive({
+      el : '#container',
+      template : '#myTemplate'
+    });
+  </script>
+</body>
+</html>
