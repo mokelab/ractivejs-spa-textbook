@@ -10,9 +10,10 @@ title: Ractive.jsでまなぶSPA
 email: info@mokelab.com
 description: > # this means to ignore newlines until "baseurl:"
   Ractive.jsを使ってSPA(Single Page Application)の作り方をまなぶための教科書です。
+  本教科書はgithub pages + jekyllで作られています。間違いなどがあればhttps://github.com/mokelab/ractivejs-spa-textbookにPull Requestを送ってください。
 
 baseurl: "/ractivejs-spa-textbook" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://mokelab.github.io" # the base hostname & protocol for your site
 twitter_username: mokelab
 github_username:  mokelab
 
